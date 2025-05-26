@@ -53,7 +53,7 @@
             <configuration>
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <mainClass>triangle.TriangleClassifier</mainClass>
+                  <mainClass>triangle.TriangleCliApp</mainClass>
                 </transformer>
               </transformers>
             </configuration>
