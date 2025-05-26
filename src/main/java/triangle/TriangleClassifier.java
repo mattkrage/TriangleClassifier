@@ -45,10 +45,10 @@ public class TriangleClassifier implements ShapeClassifier<Triangle> {
     @Override
     public String getShapeDescription(Triangle triangle) {
             return switch (triangle.getType()) {
-                case EQUILATERAL -> I18nHelper.message("triangle.equilateral");
-                case ISOSCELES -> I18nHelper.message("triangle.isosceles");
-                case SCALENE -> I18nHelper.message("triangle.scalene");
-                case OTHER -> I18nHelper.message("triangle.unknown");
+                case EQUILATERAL -> "triangle.equilateral";
+                case ISOSCELES -> "triangle.isosceles";
+                case SCALENE -> "triangle.scalene";
+                case OTHER -> "triangle.unknown";
             };
     }
 

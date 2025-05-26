@@ -12,7 +12,7 @@ target/triangle-classifier-1.0-SNAPSHOT.jar
 ## Usage:
 Run the application from the command line with three side lengths as arguments:
 ```bash
-java -jar target/triangle-classifier-1.0-SNAPSHOT-shaded.jar <sideA> <sideB> <sideC>
+java -jar target/triangle-classifier-1.0-SNAPSHOT.jar <sideA> <sideB> <sideC>
 ```
 
 ## Example
